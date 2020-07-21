@@ -2,7 +2,7 @@
   "StorageAccount": "__DIAGNOSTIC_STORAGE_ACCOUNT__",
   "ladCfg": {
     "diagnosticMonitorConfiguration": {
-      "eventVolume": "Large", 
+      "eventVolume": "Medium", 
       "metrics": {
         "metricAggregation": [
           {
