@@ -284,7 +284,7 @@
             "class": "filesystem", 
             "condition": "IsAggregate=TRUE", 
             "counter": "percentfreespace", 
-            "counterSpecifier": "/builtin/filesystem/percentfreespace", 
+            "counterSpecifier": "/builtin/filesystem/percentfreespace(/dev/sda2)", 
             "type": "builtin", 
             "unit": "Percent"
           }, 
@@ -298,7 +298,7 @@
             "class": "filesystem", 
             "condition": "IsAggregate=TRUE", 
             "counter": "percentusedspace", 
-            "counterSpecifier": "/builtin/filesystem/percentusedspace", 
+            "counterSpecifier": "/builtin/filesystem/percentusedspace(/dev/sda2)", 
             "type": "builtin", 
             "unit": "Percent"
           }, 
@@ -312,7 +312,7 @@
             "class": "filesystem", 
             "condition": "IsAggregate=TRUE", 
             "counter": "usedspace", 
-            "counterSpecifier": "/builtin/filesystem/usedspace", 
+            "counterSpecifier": "/builtin/filesystem/usedspace(/dev/sda2)", 
             "type": "builtin", 
             "unit": "Bytes"
           }, 
@@ -340,7 +340,7 @@
             "class": "filesystem", 
             "condition": "IsAggregate=TRUE", 
             "counter": "freespace", 
-            "counterSpecifier": "/builtin/filesystem/freespace", 
+            "counterSpecifier": "/builtin/filesystem/freespace(/dev/sda2)", 
             "type": "builtin", 
             "unit": "Bytes"
           }, 
