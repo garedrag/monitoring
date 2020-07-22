@@ -338,7 +338,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": "Name=/dev/sda2", 
+            "condition": 'Name="/"', 
             "counter": "freespace", 
             "counterSpecifier": "/builtin/filesystem/freespace", 
             "type": "builtin", 
