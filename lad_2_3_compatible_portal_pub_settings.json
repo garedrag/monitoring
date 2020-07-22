@@ -282,7 +282,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": 'Name="/dev/sda2"', 
+            "condition": 'Name="/"', 
             "counter": "percentfreespace", 
             "counterSpecifier": "/builtin/filesystem/percentfreespace", 
             "type": "builtin", 
@@ -296,7 +296,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": 'Name="/dev/sda2"', 
+            "condition": 'Name="/"', 
             "counter": "percentusedspace", 
             "counterSpecifier": "/builtin/filesystem/percentusedspace", 
             "type": "builtin", 
@@ -310,7 +310,7 @@
               }
             ], 
             "class": "filesystem", 
-            "condition": 'Name="/dev/sda2"', 
+            "condition": 'Name="/"', 
             "counter": "usedspace", 
             "counterSpecifier": "/builtin/filesystem/usedspace", 
             "type": "builtin", 
